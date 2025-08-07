@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App=()=>{
+  return(
+    <header style={{backgroundColor:'royalblue', padding:'100px',textAlign:"center"}}>
+      <nav>
+        <ul style={{color:'orange', fontSize:'20px'}}>
+          
+          <li style={{listStyle:"none"}} ><a style={{color:'#fff', textDecoration:"none",}} href="https://snstkfkadkfka.github.io/Todolist_test/build"></a></li>
+        </ul>
+      </nav>
+    </header>
+  )
 }
-
 export default App;
